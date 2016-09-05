@@ -1,0 +1,36 @@
+## Ueberschriften
+##TCEFORM.tt_content.header_layout{
+##     altLabels {
+##         0 = h1 - Seitenueberschrift
+##          1 =
+##          2 = h2 - Themenueberschrift
+##          3 = h3 - Ueberschrift 3.Ordnung
+##          4 = h4 - Ueberschrift 4.Ordnung
+##          5 = h5 - Ueberschrift 5.Ordnung
+##       }
+##     removeItems = 1
+##}
+
+## Backend-Layouts definieren
+mod.web_layout.BackendLayouts {
+
+	1 {
+		title = Default Layout
+		config {
+            backend_layout {
+                colCount = 1
+                rowCount = 1
+                rows {
+                    1 {
+                        columns {
+                            1 {
+                                name = Content
+                                colPos = 0
+                            }
+                        }
+                    }
+                }
+            }
+		}
+	}
+}

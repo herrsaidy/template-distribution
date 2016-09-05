@@ -1,0 +1,6 @@
+plugin.tx_news.view.templateRootPath = EXT:template/ext-templates/news/Resources/Private/Templates/
+plugin.tx_news.view.partialRootPath = EXT:template/ext-templates/news/Resources/Private/Partials/
+plugin.tx_news.view.layoutRootPath = EXT:template/ext-templates/news/Resources/Private/Layouts/
+
+
+

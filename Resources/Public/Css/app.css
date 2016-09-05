@@ -1,0 +1,251 @@
+.menu.vertical > li > a {
+    color: #fff;
+}
+
+.menu.vertical > li > a:hover, .menu.vertical > li > a:focus {
+    color: #99cccc;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto",Helvetica,Arial,sans-serif;
+}
+
+h1 {
+    background: #99cccc none repeat scroll 0 0;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2px 10px;
+    color: #000 !important;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover, a:focus {
+    color: #99cccc;
+}
+
+.top-bar {
+    background-color: rgba(51, 51, 51, 0.9);
+    width: 100%;
+}smt
+
+ .top-bar a {
+     color: #fff;
+ }
+
+.top-bar .top-bar-left, .top-bar .top-bar-right {
+    max-width: 50%;
+}
+
+.title-bar {
+    background: none;
+}
+
+.menu-icon::after {
+    background: #fff;
+    box-shadow: 0 7px 0 #fff, 0 14px 0 #fff;
+}
+
+.menu-icon:hover::after {
+    background: #99cccc;
+    box-shadow: 0 7px 0 #99cccc, 0 14px 0 #99cccc;
+}
+
+.dropdown.menu > li.opens-left > .is-dropdown-submenu {
+    left: auto !important;
+    right: auto !important;
+    background-color: rgba(0, 0, 0, 1);
+    border: none;
+}
+
+.callout {
+    border: none;
+    border-radius: 0;
+    padding: 1rem;
+}
+
+.hr-bottom {
+    border-top: 2px solid rgb(153, 204, 204);
+    content: "";
+    display: block;
+    height: 1px;
+    margin: 10px 0 20px;
+    width: 35px;
+}
+
+.top-bar ul {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.menu {
+    width: auto;
+    float: right;
+    padding-right: 15%;
+}
+
+.menu .active > a {
+    background: none;
+    color: #99cccc !important;
+}
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a, .dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a {
+    padding-right: 1em;
+}
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after, .dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a::after {
+    border-style: none;
+}
+
+.size-72 {
+    font-size: 72px;
+}
+
+.callout.primary {
+    background-color: rgba(51, 51, 51, 1);
+    color: #fff;
+    margin: 0;
+}
+
+.callout.secondary {
+    background-color: #e3e3e3;
+    margin: 0;
+}
+
+.column img {
+    width: 100%;
+}
+
+.expanded.row{
+    padding: 0;
+}
+
+.expanded .column{
+    padding: 0;
+}
+
+.expanded .right-side{
+    padding: 60px 60px 0 60px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.orbit-caption {
+    background-color: rgba(10, 10, 10, 0);
+    top: 25%;
+    bottom: auto;
+}
+
+.orbit-caption h3{
+    font-size: 2.2rem;
+    padding-right: 20%;
+}
+
+.orbit img{
+    width: 100%;
+}
+
+ul.orbit-container {
+    height: auto !important;
+}
+li.orbit-slide {
+    max-height: none !important;
+}
+
+.animation:hover {
+    color: #99cccc !important;
+
+    -webkit-transition:all 0.4s linear 0s;
+    -moz-transition:all 0.4s linear 0s;
+    -ms-transition:all 0.4s linear 0s;
+    -o-transition:all 0.4s linear 0s;
+    transition:all 0.4s linear 0s;
+}
+
+.bg-overlay {
+    background: #424252 none repeat scroll 0 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.6;
+    right: 0;
+    top: 0;
+    z-index: 0;
+}
+.bg-img {
+    background-image: url("../img/2.jpg");
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.company-image {
+    min-height: 300px;
+}
+
+.clients {
+    display: inline;
+}
+
+.clients img{
+    float: left;
+    width: auto;
+    padding: 15px 25px 15px 0;
+}
+.ms-staff-carousel {
+    margin: 25px auto;
+    max-width: 100% !important;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.thumbnail {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+
+.ms-skin-light-4 .ms-nav-next {
+    right: 0 !important;
+}
+.docs-page-title {
+    display: inline-block;
+    vertical-align: middle;
+}
+.ms-skin-light-4 .ms-nav-prev {
+    left: 0 !important;
+}
+
+.callout > .row > .columns > *:last-child {
+    margin-bottom: 0;
+}
+
+.button {
+    background-color: #99cccc;
+    border-radius: 25px;
+}
+
+.footer .menu {
+    float: left;
+}
+
+.footer .menu > li > a {
+    padding: 0.7rem 0;
+}
+
+.footer .columns {
+    padding-bottom: 20px;
+}
+
+.footer p, .footer a {
+    font-size: 0.9rem;
+}
